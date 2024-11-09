@@ -31,10 +31,12 @@ This project is a network scanning and deauthentication tool developed in C. It 
 ## Installation
 
 1. **Install the aircrack-ng suite** if not already installed:
+
    ```bash
    sudo apt update
    sudo apt install aircrack-ng
 
+---
 
 ## Sample Usage Flow
 
