@@ -1,7 +1,7 @@
 # CDeauthER
 A C-based tool for authorized Wi-Fi network scanning and deauthentication attacks using airodump-ng and aireplay-ng, allowing targeted access point scanning and deauthentication of connected stations.
 
-
+> **Porject Status**: The project is in its first alpha version and actively under development. Stay tuned for exciting updates and improvements in upcoming releases!
 
 # Network Scan and Deauthentication Tool
 
