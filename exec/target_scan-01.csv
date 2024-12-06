@@ -1,6 +1,0 @@
-
-BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
-B2:B3:6A:45:21:DC, 2024-12-06 23:45:13, 2024-12-06 23:45:19,  1, 360, WPA2, CCMP, PSK, -39,       60,        0,   0.  0.  0.  0,   9, Xiaomi 13, 
-
-Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
-
