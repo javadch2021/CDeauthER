@@ -8,7 +8,7 @@ void show_usage() {
   printf("Options:\n");
   printf("  -run     Starts the network scan, allows you to choose a target, "
          "and executes the deauth attack.\n");
-  printf("  -Copyright    Made by Jackson :)\n ");
+  printf("  -Copyright    Made by Mohammad Javad Choopani \n ");
   printf(" -help    Show this help message.\n");
 }
 

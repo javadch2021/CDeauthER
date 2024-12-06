@@ -41,7 +41,7 @@ This project is a network scanning and deauthentication tool developed in C. It 
 ## Sample Usage Flow
 
 ```
-$ sudo ./app -run
+$ sudo ./scan -run
 
 Starting monitor mode on wlan0...
 Running full network scan... Press Ctrl+C to stop when ready.
