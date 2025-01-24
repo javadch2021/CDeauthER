@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 
     // Step 2: Perform a full network scan
     snprintf(command, sizeof(command),
-             "sudo airodump-ng %smon --write network_scan --output-format csv",
+             "sudo airodump-ng %smon ",
              iface);
     printf("Running full network scan... Press Ctrl+C to stop when ready.\n");
     system(command);
@@ -51,8 +51,7 @@ int main(int argc, char *argv[]) {
 
     // Step 4: Perform a targeted scan on the specified MAC address and channel
     snprintf(command, sizeof(command),
-             "sudo airodump-ng --bssid %s --channel %d %smon --write "
-             "target_scan --output-format csv",
+             "sudo airodump-ng --bssid %s --channel %d %smon ",
              target_mac, channel, iface);
     printf(
         "Running targeted scan on %s (channel %d)... Press Ctrl+C to stop.\n",
